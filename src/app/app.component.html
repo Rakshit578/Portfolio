@@ -1,0 +1,16 @@
+<div class="main-container">
+    <div class="nav-container">
+        
+        <ul>
+            <li routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"><a routerLink="">Home</a></li><!-- localhost:4200/Home -->
+            <li routerLinkActive="active"><a routerLink="/About">About</a></li><!-- localhost:4200/About -->
+            <li routerLinkActive="active"><a routerLink="/Experiances">Experiances</a></li><!-- localhost:4200/Experiances -->
+            <li routerLinkActive="active"><a routerLink="/Achievements">Achievements</a></li><!-- localhost:4200/Contact -->
+            <li routerLinkActive="active"><a routerLink="/Contact">Contact</a></li><!-- localhost:4200/Contact -->
+        </ul>
+        
+    </div>
+    <div class="component-container">
+        <router-outlet></router-outlet>
+    </div> 
+</div>

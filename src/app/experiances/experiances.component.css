@@ -1,0 +1,16 @@
+.column {
+    float: left;
+    width: fit-content;
+    margin-bottom: 16px;
+    padding: 8px 8px;
+  }
+.row{
+    /* margin: 10px 0px;
+    padding: 100px 10px;
+    background-color: azure;
+    border-radius: 5px; */
+    display: flex;
+    background-color: azure;
+    border-radius: 5px;
+    margin-top: 8px;
+}

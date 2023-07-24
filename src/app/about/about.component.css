@@ -1,0 +1,40 @@
+.container{
+    margin: 10px 0px;
+    padding: 10px 10px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.column {
+    float: left;
+    width: 40%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+
+  
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 5px 5px;
+    padding: 5px 5px;
+}
+
+.about-section {
+    padding: 50px;
+    text-align: center;
+    color: #000;
+}
+.container {
+    padding: 0 16px;
+}
+
+.container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.title{
+    color: grey;
+}
+
+
